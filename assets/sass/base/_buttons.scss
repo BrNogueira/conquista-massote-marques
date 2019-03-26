@@ -1,0 +1,25 @@
+.button {
+    color: #ffffff;
+    background-color: #229D5C;
+    padding: 10px 20px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: 'Gandhi Sans Bold';
+    border: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid #229D5C;
+    cursor: pointer;
+
+    &:hover {
+        color: #229D5C;
+        background-color: transparent;
+        border: 2px solid #229D5C;
+        transition: all 0.3s ease-out 0s;
+
+    }
+}

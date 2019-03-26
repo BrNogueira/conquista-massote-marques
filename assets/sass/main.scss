@@ -1,0 +1,365 @@
+@import './base/menu';
+@import './base/buttons';
+@import './base/footer';
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+.fa { 
+    .far {
+        .fas {
+                font-family: 'Font Awesome 5 Free' !important;
+        }
+    }
+}
+body {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+p {
+    color: #727376;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.page-section-top {
+    padding: 80px 0 0 0;
+    
+    h2 {
+        color: #229D5C;
+    }
+    li {
+        color:  #229D5C;
+        font-size: 20px;
+        padding: 5px;
+
+        .fa {
+            padding: 0 10px;
+            font-size: 25px;
+        }
+        a {
+            color: #727376;
+
+            &:hover {
+                color: #229D5C;
+            }
+        }
+    }
+    .bottom-img {
+        float: right;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.page-section-middle {
+    padding: 80px 0 0 0;
+    background-color: #f7f7f7;
+    
+    h2 {
+        color: #229D5C;
+    }
+}
+.page-section-bottom {
+    padding: 80px 0 0 0;
+    background-color: #f7f7f7;
+    
+    h2 {
+        color: #229D5C;
+    }
+}
+
+#parallaxBar {
+    height: 590px;
+    background-color: #229D5C;
+    background: url(../img/banner2.jpg) 50% 0 fixed;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+
+    .txt-parallax {
+        background: #000;
+        bottom: 20px;
+        position: absolute;
+        width: 80%;
+        opacity: 0.9;
+        padding: 15px;
+        right: 0;
+        font-family: 'Gandhi Sans Regular';
+
+        &::before {
+            display: none;
+            position: absolute;
+            content: ""; 
+            width: 120px;
+            height: 2px;
+            margin: 25px 20px;
+            background: #229D5C;
+        }
+
+        h2 {
+            color: #229D5C;
+            padding-top: 5px;
+            font-size: 35px;
+            padding-left: 135px;
+        }
+
+        h3 {
+            display: inline-flex;
+            font-size: 40px;
+            margin: 0;
+            color: #fff;
+            line-height: 40px;
+            padding-bottom: 25px;
+            padding-left: 35px;
+        }
+
+        li {
+            color: #9e9da0;
+            font-weight: 500;
+            font-size: 16px;
+            display: contents;
+            position: relative;
+            padding: 0px 0px 7px 30px;
+        }
+ 
+        p {  
+            color: #9e9da0 !important;
+            font-weight: 700;
+            letter-spacing: 2.5px;
+            line-height: 18px;
+        }
+    }
+    .leia-mais {
+        font-family: 'Gandhi Sans Regular';
+        display: inline-block;
+        color: #fff;
+        background-color: #229D5C;
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 60px;
+        transition: 0.8s all;
+        text-decoration: none;
+
+        &:hover {
+            color: #229D5C;
+            background-color: #fff;
+            border: 1px #229D5C solid;
+            transition: 0.8s all;
+        }
+    }
+}
+#carouselExampleIndicators {
+    font-family: 'Gandhi Sans Regular';
+
+    .carousel-inner {
+
+        .txt-fullbanner {
+            h3 {
+                color: #fff!important;
+                width: 100%;
+                text-align: center;
+                font-size: 42px;
+                font-weight: 700;
+            }
+        }
+    
+        .carousel-caption {
+            position: absolute;
+            top: 45%;
+            z-index: 10;
+            color: #fff;
+            text-align: center; 
+        }
+    }
+    .carousel {
+        background-color: rgba(114, 113, 116, 0.4) !important;
+        z-index: 10;
+        width: 100%;
+    }
+     
+
+}
+
+#parallax-news {
+
+    &::before {
+    background: rgba(0, 0, 0, 0.7);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    }
+    height: 350px;
+    top: 0;
+    background-color: #004c82;
+    background: url(../img/medicina-novidades.png) 100% 0 fixed;
+    position: relative;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+
+    .txt-parallax {
+        font-family: 'Gandhi Sans Regular';
+        bottom: 30px;
+        position: absolute;
+        width: 100%;
+        opacity: 0.9;
+        text-align: center;
+        right: 0;
+        .button {
+            float: right;
+        }
+
+        &::before {
+            display: none;
+            position: absolute;
+            content: "";
+            width: 120px;
+            height: 2px;
+            margin: 25px 20px;
+            background: #229D5C;
+        }
+
+        h2 {
+            color: #229D5C;
+            padding-top: 5px;
+            font-size: 35px;
+            padding-left: 135px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        h3 {
+            display: inline-flex;
+            font-size: 40px;
+            margin: 0;
+            color: #fff;
+            line-height: 40px;
+            padding-bottom: 25px;
+            padding-left: 35px;
+            font-family: 'Cambria Regular', serif;
+        }
+
+        li {
+            color: #9e9da0;
+            font-weight: 500;
+            font-family: 'Cambria Regular';
+            font-size: 16px;
+            display: contents;
+            position: relative;
+            padding: 0px 0px 7px 30px;
+        }
+ 
+        p {  
+            color: #9e9da0 !important;
+            font-weight: 700;
+            letter-spacing: 2.5px;
+            line-height: 18px;
+            font-family: 'Cambria Regular'; 
+        }
+    }
+} 
+.data-not {
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    left: 15px;
+    color: #229D5C;
+    font-size: 20px;
+}
+.features {
+    padding: 15px;
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 350px;
+    margin: 1rem;
+    position: relative;
+    width: 300px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.07);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+&:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.07), 0 10px 10px rgba(0, 0, 0, 0.07);
+  }
+
+  .feature-icon {
+      font-size: 40px;
+      text-align: center;
+      width: 100%;
+      color: #229D5C;
+      margin-bottom: 20px;
+  }
+  
+  .feature-info {
+      text-align: justify;
+    font-family: 'Gandhi Sans Regular';
+  }
+.box-button {
+    width: 100%;
+    text-align: center;
+    .button {
+        float: none;
+    }
+}
+}
+.features-news {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 410px;
+    margin: 1rem;
+    position: relative;
+    width: 300px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.07);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+    &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.07), 0 10px 10px rgba(0, 0, 0, 0.07);
+    }
+  
+  .feature-info {
+    font-family: 'Gandhi Sans Regular';
+
+    .feature-title {
+        color: #323232;
+    }
+    h4 {
+        &:hover {
+        color: #229D5C;
+        transition: all 0.3s ease-out 0s;
+        }
+    }
+  }
+    .box-button {
+        width: 100%;
+        text-align: center;
+        .button {
+            float: none;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
