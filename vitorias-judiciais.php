@@ -67,6 +67,7 @@
             </div>
             </div>
         </section>
+
         <section id="parallaxBar" data-speed="6" data-type="background">
             <div class="container-fluid">
                 <div class="row">
@@ -74,7 +75,7 @@
                         <div class="container">
                                 <h2>LIMINAR GARANTE COBERTURA DE TRATAMENTO A PACIENTE RETIRADO DE PLANO EMPRESARIAL </h2>
                                 <h3>Se por um lado é lícito às operadoras de saúde rescindir contratos empresariais, bastando comunicação prévia de 60 dia...</h3>
-                            <a class="button button-border white mt-30" href="vitorias-judiciais.php">Saiba mais</a>
+                            <a class="button button-border white mt-30" href="#">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -90,22 +91,23 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-title text-center">
-                            <h6>NOSSAS</h6>
-                            <h2>ÁREAS DE ATUAÇÃO</h2>
+                            <h6>NOSSOS PRINCIPAIS</h6>
+                            <h2>SERVIÇOS</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-lg-6 col-md-6">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
                         <div class="features">
-                            <div class="row r">
+                            <div class="row">
                             <div class="feature-icon"><i class="fas fa-stethoscope"></i></div>
                             </div>
                             <div class="feature-info">
-                                <h4>Direito Medico
+                                <h4>Lorem Ipsum
                                     <a href="#"></a>
                                 </h4>
-                                <p>Presta serviços a médicos e profissionais da saúde, incluindo consultoria preventiva e atuação jurisdicional. Através de parceiros, assessora Hospitais e Clínicas Médicas nas esferas empresarial e tributária.
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta velit.
+                                    Curabitur feugiat est eu lacus accumsan tincidunt. Maecenas sit amet dapibus dolor.
                                 </p>
                                 <div class="box-button">
                                     <a class="button button-border white mt-30" href="#">Saiba mais</a>
@@ -113,32 +115,110 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-4 col-md-4">
                         <div class="features">
                             <div class="row"><div class="feature-icon"><i class="fas fa-book-medical"></i></div></div>
                         <div class="feature-info">
-                                <h4>Direito à Saúde
+                                <h4>Lorem Ipsum
                                     <a href="#"></a>
                                 </h4>
-                                <p>O escritório atende a pacientes em demandas contra operadoras de planos de saúde e contra o poder público, na busca pela garantia de tratamentos de saúde adequados. 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta velit.
+                                    Curabitur feugiat est eu lacus accumsan tincidunt. Maecenas sit amet dapibus dolor.
                                 </p>
                                 <div class="box-button">
                                     <a class="button button-border white mt-30" href="#">Saiba mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="features">
+                            <div class="row">
+                            <div class="feature-icon"><i class="fas fa-clinic-medical"></i></div>
+                            </div>
+                            <div class="feature-info">
+                                <h4>Lorem Ipsum
+                                    <a href="#"></a>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta velit.
+                                    Curabitur feugiat est eu lacus accumsan tincidunt. Maecenas sit amet dapibus dolor.
+                                </p>
+                                <div class="box-button">
+                                    <a class="button button-border white mt-30" href="#">Saiba mais</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="features">
+                            <div class="row">
+                            <div class="feature-icon"><i class="fas fa-user-nurse"></i></div>
+                            </div>
+                            <div class="feature-info">
+                                <h4>Lorem Ipsum
+                                    <a href="#"></a>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta velit.
+                                    Curabitur feugiat est eu lacus accumsan tincidunt. Maecenas sit amet dapibus dolor.
+                                </p>
+                                <div class="box-button">
+                                    <a class="button button-border white mt-30" href="#">Saiba mais</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="features">
+                            <div class="row">
+                            <div class="feature-icon"><i class="fas fa-heartbeat"></i></div>
+                            </div>
+                            <div class="feature-info">
+                                <h4>Lorem Ipsum
+                                    <a href="#"></a>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta velit.
+                                    Curabitur feugiat est eu lacus accumsan tincidunt. Maecenas sit amet dapibus dolor.
+                                </p>
+                                <div class="box-button">
+                                    <a class="button button-border white mt-30" href="#">Saiba mais</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="features">
+                            <div class="row">
+                            <div class="feature-icon"><i class="fas fa-procedures"></i></div>
+                            </div>
+                            <div class="feature-info">
+                                <h4>Lorem Ipsum
+                                    <a href="#"></a>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta velit.
+                                    Curabitur feugiat est eu lacus accumsan tincidunt. Maecenas sit amet dapibus dolor.
+                                </p>
+                                <div class="box-button">
+                                    <a class="button button-border white mt-30" href="#">Saiba mais</a>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
 
+        </section>
         <section id="parallax-news" data-speed="6" data-type="background">
             <div class="container-fluid">
                 <div class="row">
                     <div class="txt-parallax">
                         <div class="container">
-                            <h2>ATENDIMENTO SEMPRE A SUA DISPOSIÇÃO</h2>
-                            <a class="button button-border white mt-30" href="contato.php">Saiba mais</a>
+                            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at porta velit. Curabitur
+                                feugiat est eu lacus accumsan tincidunt. </h3>
+                            <a class="button button-border white mt-30" href="#">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -234,56 +314,6 @@
                     </div>
                 </div>
         </section>
-        <section class="page-section-ptb">
-  <div class="container"> 
-  
-   <div class="row justify-content-center">
-      <div class="col-lg-8">
-         <div class="section-title text-center">
-            <h6>CONHEÇA NOSSA</h6>
-            <h2>EQUIPE</h2>
-          </div>
-      </div>
-    </div>
-
-
-
-   <div class="row">
-        
-
-<div class="col-lg-2"></div>
-        <div class="col-lg-4 col-sm-6 sm-mb-30">
-           <div class="team team-round">
-              <div class="team-photo">
-                <img class="img-fluid mx-auto" src="./assets/img/equipe/gabriel.jpg" alt="Gabriel Massote"> 
-              </div>    
-              <div class="team-description"> 
-                <div class="team-info"> 
-                     <h5><a href="">Dr. Gabriel Massote</a></h5>
-                     <span>Sócio Diretor</span>
-                </div>
-               </div>
-           </div>
-          </div>
-          
-          <div class="col-lg-4 col-sm-6">
-           <div class="team team-round">
-              <div class="team-photo">
-                <img class="img-fluid mx-auto" src="./assets/img/equipe/julio.jpg" alt="Carolina Tagliari"> 
-              </div>    
-              <div class="team-description"> 
-                <div class="team-info"> 
-                     <h5><a href="#">Dr. Julio Marques</a></h5>
-                     <span>Sócio Diretor</span>
-                </div>
-               </div>
-           </div>
-            <div class="col-lg-2"></div>
-
-          </div>
-       </div>
-   </div>
-</section>
     </main>
 </body>
 <script src="./assets/js/menu.js"></script>

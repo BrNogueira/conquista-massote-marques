@@ -1,19 +1,21 @@
-#logo{
+#logo {
     height: 90px;
-    padding-right: 300px;}
+    padding-right: 0;
+    margin: 0 30px;
+}
 
-.navbar{
+.navbar {
     transition: all .3s ease;
 }
 
-.nav-link{
+.nav-link {
     font-size:16px;
     color:#fff !important;
     transition:.2s;
     color: rgb(50, 207, 123);
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color:#229D5C !important;
 }
 .navbar-nav{
